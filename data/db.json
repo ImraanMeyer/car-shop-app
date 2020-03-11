@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "make": "VolksWagen",
+        "model": "Polo 6",
+        "year": 2016,
+        "type": "Hatchback",
+        "fuelType": "Petrol",
+        "gears": 5,
+        "transimision": "Manual",
+        "consumption": 100
+    },
+    {
+        "id": 2,
+        "make": "Hyundai",
+        "model": "i20",
+        "year": 2015,
+        "type": "Hatchback",
+        "fuelType": "Petrol",
+        "gears": null,
+        "transimision": "Automatic",
+        "consumption": 100
+    },
+    {
+        "id": 3,
+        "make": "Golf",
+        "model": "6",
+        "year": 2010,
+        "type": "Hatchback",
+        "fuelType": "Diesel",
+        "gears": 5,
+        "transimision": "Manual",
+        "consumption": 100
+    }
+]

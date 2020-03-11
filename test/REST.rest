@@ -1,0 +1,47 @@
+# Get ALL posts
+GET http://localhost:5050/api
+
+###
+
+# Get Specific Post
+GET http://localhost:5050/api/3
+
+
+###
+
+# Create New Post
+POST http://localhost:5050/api/new
+Content-Type: application/json
+
+{
+    "make": "Golf",
+    "model": "6",
+    "year": 2010,
+    "type": "Hatchback",
+    "fuelType": "Diesel",
+    "gears": 6,
+    "transimision": "Manual",
+    "consumption": 100
+}
+
+### 
+
+# Delete Specific Post
+DELETE http://localhost:5050/api/3
+
+###
+
+# Edit Specific Post
+PUT  http://localhost:5050/api/3
+Content-Type: application/json
+
+{
+   "make": "Golf",
+    "model": "6",
+    "year": 2010,
+    "type": "Hatchback",
+    "fuelType": "Diesel",
+    "gears": 5,
+    "transimision": "Manual",
+    "consumption": 100  
+}
